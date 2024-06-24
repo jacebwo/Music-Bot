@@ -226,17 +226,18 @@ function initializePlayer(client) {
                 .setTitle("Queue")
                 .setDescription(queueList);
             channel.send({ embeds: [queueEmbed] });
+            {
+    host : "37.114.42.191",
+    port : 6767,
+    password : "danteisnttaken",
+    secure : false
+  },
         }
     
         module.exports = { initializePlayer, setLoop, clearQueue, showQueue };
     }
     
     module.exports = { initializePlayer };
-{
-    host : "37.114.42.191",
-    port : 6767,
-    password : "danteisnttaken",
-    secure : false
-  },
+
 
     
